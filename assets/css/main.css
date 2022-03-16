@@ -1,0 +1,26 @@
+* {
+	-webkit-transition: all 0.3s ease;;
+	-moz-transition: all 0.3s ease;;
+	-o-transition: all 0.3s ease;;
+	transition: all 0.3s ease;
+}
+
+.container {
+	padding-top: 15px;
+}
+
+a {
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.bg-brand {
+	background: #367ebf;
+}
+
+.color-brand {
+	color: #367ebf;
+}
