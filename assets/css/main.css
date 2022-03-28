@@ -1,12 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,600&family=Roboto+Slab&display=swap');
+
+body {
+	background-color: #e0e0df;
+}
+
+.tabs-brand .card-header{
+	background: #002244!important;
+	border-bottom: 1px solid #ffffff;
+}
+
+.tabs-brand .tab-content{
+	background: #002244!important;
+	color: #fff;
+}
+
+.tabs-brand .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+	background: #002244!important;
+	color: #fff;
+}
+
 * {
 	-webkit-transition: all 0.3s ease;;
 	-moz-transition: all 0.3s ease;;
 	-o-transition: all 0.3s ease;;
 	transition: all 0.3s ease;
+	font-family: 'Roboto Slab', serif;
+}
+
+.height-nav {
+	height: 90px;
+}
+
+.bg-image-main {
+	background-image: url(../img/main-banner.jpg);
+	min-height: 80vh;
+	background-size: cover;
+	background-position: center center;
+}
+
+.fs-28 {
+	font-size: 20px
+}
+
+.fs-18 {
+	font-size: 18px;
 }
 
 .container {
-	padding-top: 15px;
 }
 
 a {
@@ -18,9 +59,13 @@ a:hover {
 }
 
 .bg-brand {
-	background: #367ebf;
+	background: #002244;
 }
 
 .color-brand {
 	color: #367ebf;
+}
+
+.color-brand-dark {
+	color: #002244;
 }

@@ -77,15 +77,15 @@ export default {
 
 <style>
 	.new-slider .carousel  {
-		border-radius: 30px;
+		border-radius: 0px;
 	}
 
 	.new-slider .carousel-inner {
-		border-radius: 30px;
+		border-radius: 0px;
 	}
 
 	.new-slider .carousel-item {
-		border-radius: 30px;
+		border-radius: 0px;
 	}
 
 	.new-slider .img-fluid {
