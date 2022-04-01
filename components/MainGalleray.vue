@@ -21,7 +21,7 @@
 <script>
 import VueGallerySlideshow from "vue-gallery-slideshow";
 import kids2 from "../assets/img/hockey_kids_rrun.jpg";
-import mvp from "assets/img/mvp.jpg";
+import mvp from "../assets/img/mvp.jpg";
 import kids1 from "../assets/img/service-2.jpg";
 import kids3 from "../assets/img/kids_hockey.jpg";
 import kids4 from "../assets/img/service-4.jpg";
