@@ -1,74 +1,83 @@
 <template>
-	<div class="accordion w-100" id="basicAccordion">
-		<div class="accordion-item">
-			<h2 class="accordion-header" id="headingOne">
-				<button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-						data-mdb-target="#basicAccordionCollapseOne" aria-expanded="false"
-						aria-controls="collapseOne">
-					Question #1
-				</button>
+	<div class="faq_area section_padding_130 mb-5" id="faq">
+		<div class="d-flex mt-5">
+			<h2 class="color-brand-dark p-1">
+				Часто задаваемые вопросы:
 			</h2>
-			<div id="basicAccordionCollapseOne" class="accordion-collapse collapse"
-				 aria-labelledby="headingOne" data-mdb-parent="#basicAccordion" style="">
-				<div class="accordion-body">
-					<strong>This is the first item's accordion body.</strong> It is shown by default,
-					until the collapse plugin adds the appropriate classes that we use to style each
-					element. These classes control the overall appearance, as well as the showing and
-					hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-					our default variables. It's also worth noting that just about any HTML can go within
-					the <code>.accordion-body</code>, though the transition does limit overflow.
-				</div>
-			</div>
+
 		</div>
-		<div class="accordion-item">
-			<h2 class="accordion-header" id="headingTwo">
-				<button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-						data-mdb-target="#basicAccordionCollapseTwo" aria-expanded="false"
-						aria-controls="collapseTwo">
-					Question #2
-				</button>
-			</h2>
-			<div id="basicAccordionCollapseTwo" class="accordion-collapse collapse"
-				 aria-labelledby="headingTwo" data-mdb-parent="#basicAccordion" style="">
-				<div class="accordion-body">
-					<strong>This is the second item's accordion body.</strong> It is hidden by default,
-					until the collapse plugin adds the appropriate classes that we use to style each
-					element. These classes control the overall appearance, as well as the showing and
-					hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-					our default variables. It's also worth noting that just about any HTML can go within
-					the <code>.accordion-body</code>, though the transition does limit overflow.
-				</div>
-			</div>
-		</div>
-		<div class="accordion-item">
-			<h2 class="accordion-header" id="headingThree">
-				<button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-						data-mdb-target="#basicAccordionCollapseThree" aria-expanded="false"
-						aria-controls="collapseThree">
-					Question #3
-				</button>
-			</h2>
-			<div id="basicAccordionCollapseThree" class="accordion-collapse collapse"
-				 aria-labelledby="headingThree" data-mdb-parent="#basicAccordion" style="">
-				<div class="accordion-body">
-					<strong>This is the third item's accordion body.</strong> It is hidden by default,
-					until the collapse plugin adds the appropriate classes that we use to style each
-					element. These classes control the overall appearance, as well as the showing and
-					hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-					our default variables. It's also worth noting that just about any HTML can go within
-					the <code>.accordion-body</code>, though the transition does limit overflow.
-				</div>
-			</div>
-		</div>
+		<b-button v-b-toggle.collapse-4 class="card w-100 color-brand-dark mt-2">Экипировку предоставляете?</b-button>
+		<b-collapse id="collapse-4" class="mt-2">
+			<b-card>
+				<p>Экипировку предоставляем на пробное занятие</p>
+			</b-card>
+		</b-collapse>
+		<b-button v-b-toggle.collapse-5 class="card w-100 color-brand-dark mt-2">Как проходят занятия</b-button>
+		<b-collapse id="collapse-5" class="mt-2">
+			<b-card>
+				<p>Занятия проходят 45 минут на льду после 30 минут в спортивном зале</p>
+			</b-card>
+		</b-collapse>
+		<b-button v-b-toggle.collapse-6 class="card w-100 color-brand-dark mt-2">Если малыш не умеет кататься?</b-button>
+		<b-collapse id="collapse-6" class="mt-2">
+			<b-card>
+				<p>Ничего страшного, мы научим вашего малыша.</p>
+			</b-card>
+		</b-collapse>
+		<b-button v-b-toggle.collapse-7 class="card w-100 color-brand-dark mt-2">Какая стоимость занятий?</b-button>
+		<b-collapse id="collapse-7" class="mt-2">
+			<b-card>
+				<p>3 раза в неделю, в месяц 12 занятий стоимость 50 тыс</p>
+			</b-card>
+		</b-collapse>
+		<b-button v-b-toggle.collapse-8 class="card w-100 color-brand-dark mt-2">Со скольки лет приниматете?</b-button>
+		<b-collapse id="collapse-8" class="mt-2">
+			<b-card>
+				<p>Мы принимаем малышей с 3х лет</p>
+			</b-card>
+		</b-collapse>
+		<b-button v-b-toggle.collapse-9 class="card w-100 color-brand-dark mt-2 text-left">Когда можно записаться на пробное занятие?</b-button>
+		<b-collapse id="collapse-9" class="mt-2">
+			<b-card>
+				<p>На пробное занятие могу подобрать удобное для вас время</p>
+			</b-card>
+		</b-collapse>
+		<b-button v-b-toggle.collapse-10 class="card w-100 color-brand-dark mt-2">Пробное занятие бесплатно?</b-button>
+		<b-collapse id="collapse-10" class="mt-2">
+			<b-card>
+				<p>Да</p>
+			</b-card>
+		</b-collapse>
+		<b-button v-b-toggle.collapse-12 class="card w-100 color-brand-dark mt-2">Сколько детей в группе? </b-button>
+		<b-collapse id="collapse-12" class="mt-2">
+			<b-card>
+				<p>Мини группы по 8 человек</p>
+			</b-card>
+		</b-collapse>
 	</div>
 </template>
 
 <script>
+
 export default {
 
 }
 </script>
 
-<style scoped>
+<style>
+.btn-secondary:hover {
+	background: #002244!important;
+}
 
+.faq_area p {
+	margin-bottom: 0!important;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+	color: #000000!important;
+}
+
+.btn-secondary:focus, .btn-secondary.focus {
+	color: #000000;
+}
 </style>

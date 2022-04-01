@@ -3,7 +3,7 @@
 		<div class="container mt-5 py-5">
 
 		<div class="d-flex">
-			<h2 class="bg-white p-1">
+			<h2 class="text-white">
 				НАША КОМАНДА
 			</h2>
 		</div>
@@ -14,23 +14,23 @@
 			Каждый тренер, в прошлом профессиональный хоккеист, прошедший тщательное обучение по системе TH, а также, имевший контракт с профессиональными командами.<br>
 			Благодаря методике TH и тренерскому составу, наши дети считаются самыми сильными по уровню мастерства в Республике Казахстан.
 		</p>
-		<div class=" mt-3">
-			<b-card no-body>
+		<div class=" mt-3 text-white content-mob-center">
+			<b-card no-body class="custom-card">
 				<b-tabs card>
-					<b-tab  title="TH Kids" active>
-						<div class="d-flex justify-content-center mt-3 custom-card flex-wrap">
+					<b-tab title="TH Kids" active>
+						<div class="d-flex justify-content-between mt-3 custom-card flex-wrap d-mob-flex">
 						<b-card
 							title="Кенбаев Даулет Сарсенович"
 							img-src="../assets/img/daulet.jpg"
 							img-alt="Image"
 							img-top
 							tag="article"
-							class="mb-2 "
+							class="mb-2 player-card"
 						>
 							<b-card-text>
 								<p>
-									<span class="text-center"><strong class="text-center">Старший тренер</strong></span> <br><br>
 									Год рождения: 12.07.1992<br><br>
+									<span class="text-center"><strong class="text-center">Старший тренер</strong></span><br>
 								Первая школа Торпедо г. Усть-Каменогорск<br>
 								Образования: ВКГУ физическая культура и спорт<br>
 								Звание: мастер спорта международного класса РК<br>
@@ -48,7 +48,7 @@
 							img-alt="Image"
 							img-top
 							tag="article"
-							class="mb-2 "
+							class="mb-2 player-card"
 						>
 							<b-card-text>
 								Год рождения: 25.06.1999<br><br>
@@ -70,11 +70,11 @@
 							img-alt="Image"
 							img-top
 							tag="article"
-							class="mb-2 "
+							class="mb-2 player-card"
 						>
 							<b-card-text>
 								Год рождения: 01.01.1998<br><br>
-								Хоккейная школа «Астана»<br>
+								Воспитанник ХК «Астана»<br>
 								Чемпион РК по хоккею<br> с шайбой, МСРК<br>
 								Высшее образование КарГУ спорт<br>
 							</b-card-text>
@@ -85,7 +85,7 @@
 							img-alt="Image"
 							img-top
 							tag="article"
-							class="mb-2 "
+							class="mb-2 player-card"
 						>
 							<b-card-text>
 								Год рождения: 11.03.1998<br><br>
@@ -99,19 +99,19 @@
 						</div>
 					</b-tab>
 					<b-tab title="TH Trainings">
-						<div class="d-flex justify-content-center mt-3 custom-card flex-wrap">
+						<div class="d-flex d-mob-flex justify-content-between mt-3 custom-card flex-wrap">
 							<b-card
 								title="Кумискалиев Темирлан Макамбетович"
 								img-src="../assets/img/Temirlan.jpg"
 								img-alt="Image"
 								img-top
 								tag="article"
-								class="mb-2 "
+								class="mb-2 player-card"
 							>
 								<b-card-text>
 									<p>
-										<span class="text-center"><strong class="text-center">Главный тренер</strong></span> <br><br>
 										Год рождения: 01.03.1994<br><br>
+										<span class="text-center"><strong class="text-center">Главный тренер</strong></span><br>
 										1 школа Темиртау<br>
 										Входил в состав юношеской сборной РК<br>
 										Серебряный призёр чемпионата Казахстана<br>
@@ -125,7 +125,7 @@
 								img-alt="Image"
 								img-top
 								tag="article"
-								class="mb-2 "
+								class="mb-2 player-card"
 							>
 								<b-card-text>
 									Год рождения: 1997.г<br><br>
@@ -143,7 +143,7 @@
 								img-alt="Image"
 								img-top
 								tag="article"
-								class="mb-2 "
+								class="mb-2 player-card"
 							>
 								<b-card-text>
 									Год рождения: 22.04.1999<br><br>
@@ -161,7 +161,7 @@
 								img-alt="Image"
 								img-top
 								tag="article"
-								class="mb-2 "
+								class="mb-2 player-card"
 							>
 								<b-card-text>
 									Год рождения: 03.05.1993<br><br>
@@ -178,7 +178,7 @@
 								img-alt="Image"
 								img-top
 								tag="article"
-								class="mb-2 "
+								class="mb-2 player-card"
 							>
 								<b-card-text>
 									Год рождения: 17.03.1997<br><br>
@@ -200,7 +200,7 @@
 								img-alt="Image"
 								img-top
 								tag="article"
-								class="mb-2 "
+								class="mb-2 player-card"
 							>
 								<b-card-text>
 									Год рождения: 1999<br><br>
@@ -212,9 +212,9 @@
 						</div>
 					</b-tab>
 					<b-tab title="TH Ice service">
-						<div class="d-flex justify-content-center mt-3 custom-card-main-ingeneer flex-wrap">
+						<div class="d-flex d-mob-flex justify-content-center mt-3 custom-card-main-ingeneer flex-wrap">
 							<b-card
-								title="Кенбаев Даулет Сарсенович"
+								title="Дудников Александр Алексеевич"
 								img-src="../assets/img/Main_ingeneer.jpg"
 								img-alt="Image"
 								img-top
@@ -262,13 +262,40 @@ export default {
 
 <style>
 
-.custom-card-main-ingeneer .card{
-	width: 50%;
-}
-
 .card-title {
 	font-size: 18px!important;
 	min-height: 45px;
+	border: none!important;
+}
+
+
+.custom-card .card {
+	border: none!important;
+}
+
+.custom-card .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+	color: #ffffff;
+}
+
+.card-header {
+	border-bottom: none!important;
+}
+
+.nav-tabs {
+	border-bottom: none!important;
+}
+
+.custom-card .card-body {
+	padding: 0!important;
+}
+
+.card {
+	border: transparent!important;
+}
+
+.custom-card .card-header .nav-link{
+	background: none!important;
+	border: none!important;
 }
 
 .custom-card .card {
@@ -290,6 +317,64 @@ export default {
 
 .tabs {
 	width: 100%;
+}
+
+.custom-card-main-ingeneer .card{
+	width: 40% !important;
+}
+
+.custom-card-main-ingeneer .card-body {
+	padding: 1.25em!important;
+}
+
+.content-mob-center .justify-content-between {
+	justify-content: center!important;
+}
+
+
+.player-card .card-body {
+	padding: 1rem!important;
+}
+
+@media (max-width: 425px) {
+	.nav-link {
+		padding: 0.5rem!important;
+	}
+	h2 {
+		font-size: 20px!important;
+		margin-bottom: 20px;
+	}
+	.fs-28 {
+		font-size: 16px!important;
+	}
+	.content-mob-center .justify-content-between {
+		justify-content: space-between!important;
+	}
+	.custom-card-main-ingeneer .card-title {
+		font-size: 20px!important;
+	}
+	.player-card .card-title {
+		font-size: 14px!important;
+	}
+	.player-card .card-body {
+		padding: 0.4rem!important;
+	}
+	.custom-card-main-ingeneer .card-body {
+		padding: 0.5em!important;
+	}
+	.custom-card .card {
+		margin-right: 20px;
+		width: 49%;
+	}
+	.d-mob-flex {
+		display: flex!important;
+	}
+	.player-card {
+		margin-right: 0!important;
+	}
+	.custom-card-main-ingeneer .card{
+		width: 80% !important;
+	}
 }
 
 </style>

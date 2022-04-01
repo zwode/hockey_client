@@ -1,7 +1,7 @@
 <template>
 	<div class="py-5 mt-5 mb-2 tabs-brand">
 		<div class="d-flex">
-			<h2 class="bg-brand text-white p-1">
+			<h2 class="color-brand-dark p-1">
 				TRUE HOCKEY SYSTEMS
 			</h2>
 		</div>
@@ -9,7 +9,7 @@
 			<b-tabs card>
 				<b-tab title="TH Kids" active>
 					<div class="d-flex">
-						<div class="w-50 p-2">
+						<div class="w-50 p-2 mob-w-100">
 							<h6 class="font-weight-bold">
 								TH Kids – это хоккейный центр для малышей c 3-х до 7 лет.
 								Главной целью нашего центра является правильное развитие вашего ребенка.
@@ -22,7 +22,7 @@
 
 							</p>
 						</div>
-						<div class="w-50">
+						<div class="w-50 mob-w-100">
 							<b-carousel
 								id="carousel-1"
 								v-model="slide"
@@ -57,7 +57,7 @@
 				</b-tab>
 				<b-tab title="TH Trainings">
 					<div class="d-flex">
-						<div class="w-50 p-2">
+						<div class="w-50 p-2 mob-w-100">
 							<h6 class="font-weight-bold">
 								TH Trainings – это дополнительные занятия по развитию хоккейного мастерства.
 							</h6>
@@ -69,7 +69,7 @@
 								ОФП.
 							</p>
 						</div>
-						<div class="w-50">
+						<div class="w-50 mob-w-100">
 							<b-carousel
 								id="carousel-1"
 								v-model="slide"
@@ -107,7 +107,7 @@
 				</b-tab>
 				<b-tab title="TH ice service">
 					<div class="d-flex">
-						<div class="w-50 p-2">
+						<div class="w-50 p-2 mob-w-100">
 							<h6 class="font-weight-bold">
 								TH Ice Service – является профессионалом в данной отрасли.
 							</h6>
@@ -139,7 +139,7 @@
 
 							</p>
 						</div>
-						<div class="w-50">
+						<div class="w-50 mob-w-100">
 							<b-carousel
 								id="carousel-1"
 								v-model="slide"
@@ -148,28 +148,25 @@
 								indicators
 								background="#ababab"
 								img-width="100%"
-								img-height="260"
+								img-height="240"
 								style="text-shadow: 1px 1px 2px #333;"
 								@sliding-start="onSlideStart"
 								@sliding-end="onSlideEnd"
 							>
 								<!-- Text slides with image -->
 								<b-carousel-slide
-									img-src="../assets/img/boy-1.jpg"
+									img-src="../assets/img/ice-serivce.jpg"
 								></b-carousel-slide>
 								<!-- Slides wit custom text -->
 								<b-carousel-slide
-									img-src="../assets/img/boy-2.jpg">
+									img-src="../assets/img/ice-serivice-3.jpg">
 								</b-carousel-slide>
 								<!-- Slides with image only -->
 								<b-carousel-slide
-									img-src="../assets/img/boy-3.jpg">
+									img-src="../assets/img/ice-service-2.jpg">
 								</b-carousel-slide>
 								<b-carousel-slide
-									img-src="../assets/img/boy-4.jpg">
-								</b-carousel-slide>
-								<b-carousel-slide
-									img-src="../assets/img/boy-5.jpg">
+									img-src="../assets/img/ice-serivice-4.jpg">
 								</b-carousel-slide>
 							</b-carousel>
 						</div>

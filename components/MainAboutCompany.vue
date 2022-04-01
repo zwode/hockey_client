@@ -1,9 +1,9 @@
 <template>
 	<div class="mb-5 py-5">
 		<h2 class="mt--40 d-flex ">
-			<div class="bg-brand p-1 text-white">
+			<h2 class="color-brand-dark">
 				О НАС
-			</div>
+			</h2>
 		</h2>
 		<p class="fs-28">
 			<strong class="color-brand-dark">True hockey systems</strong> – это самая крупная частная многопрофильная организация в сфере хоккея в РК, занимающаяся от хоккейных тренировок до строительства ледовых кортов.

@@ -1,30 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,600&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,800;1,600&family=Roboto+Slab&display=swap');
 
 body {
 	background-color: #e0e0df;
 }
 
+.main_nav #dropdown-left {
+	margin: 0 20px 0 0!important;
+}
+
+.link-brand-dark a {
+	color: #002244!important;
+
+}
+
+.size-text-footer a, div{
+	font-size: 14px;
+}
+
+.link-white a {
+	color: #ffffff;
+}
+
+.main_nav #dropdown-left__BV_toggle_ {
+	padding: 0!important;
+	background: none!important;
+	border: none!important;
+	margin: 0!important;
+}
+
 .tabs-brand .card-header{
-	background: #002244!important;
-	border-bottom: 1px solid #ffffff;
+	background: none!important;
+	border-bottom:none;
 }
 
 .tabs-brand .tab-content{
-	background: #002244!important;
-	color: #fff;
+	background: none!important;
+	color: #000;
+}
+
+.card {
+	background: none!important;
 }
 
 .tabs-brand .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
-	background: #002244!important;
-	color: #fff;
+	background: transparent!important;
+	color: #000;
+	border-bottom: none!important;
 }
 
 * {
 	-webkit-transition: all 0.3s ease;;
 	-moz-transition: all 0.3s ease;;
 	-o-transition: all 0.3s ease;;
-	transition: all 0.3s ease;
+	transition: all 0.3s ease;font-family: 'Montserrat', sans-serif;
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -32,8 +60,31 @@ body {
 	height: 90px;
 }
 
+.whatsapp-icon {
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	bottom: 20px !important;
+	right: 20px;
+	z-index: 1020 !important;
+
+}
+
+.navbar {
+	background: #002244!important;
+	color: #ffffff!important;
+}
+
+.go-top {
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	left: 20px !important;
+	bottom: 20px!important;
+	background: #002244;
+	z-index: 100000;
+}
+
 .bg-image-main {
-	background-image: url(../img/main-banner.jpg);
+	background-image: url(../img/MainBanner.jpg);
 	min-height: 80vh;
 	background-size: cover;
 	background-position: center center;
@@ -69,3 +120,43 @@ a:hover {
 .color-brand-dark {
 	color: #002244;
 }
+
+@media (max-width: 425px) {
+	.bg-image-main {
+		min-height: 40vh!important;
+	}
+	.image {
+		margin-right: 4px!important;
+	}
+	.whatsapp-icon {
+		position: absolute !important;
+		bottom: 0 !important;
+		right: 0;
+		z-index: 1020 !important;
+
+	}
+	.wrapper {
+		position: sticky;
+		top: 0;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		color: #ffffff!important;
+	}
+	.dropdown-item {
+		font-size: 12px!important;
+	}
+	.mob-w-100 {
+		width: 100%!important;
+	}
+	.d-flex {
+		display: block!important;
+	}
+	.d-flex-mob {
+		display: flex!important;
+	}
+	.mob-center {
+		display: flex;
+		justify-content: center;
+	}
+}
+
