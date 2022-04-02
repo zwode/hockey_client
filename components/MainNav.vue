@@ -32,7 +32,7 @@
 						<b-dropdown-item href="/refrigeration_units">Холодильные установки</b-dropdown-item>
 					</b-dropdown>
 					<a class="nav-item" href="/#galleray">
-						Галлерея
+						Галерея
 					</a>
 
 					<a class="nav-item" href="/#faq">

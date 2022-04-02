@@ -2,7 +2,7 @@
 	<div>
 		<div class="container">
 			<h2 class="text-white">
-				Галлерея
+				Галерея
 			</h2>
 			<div class="d-flex flex-wrap justify-content-between">
 				<img
