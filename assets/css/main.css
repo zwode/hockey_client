@@ -148,7 +148,7 @@ a:hover {
 	color: #002244;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 550px) {
 	.navbar-nav .nav-link {
 		text-align: center!important;
 	}
