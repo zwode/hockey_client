@@ -50,7 +50,7 @@
 					<a href="https://www.instagram.com/truehockey.kz/">
 						<div class="contact-email d-flex">
 							<div class="mr-1 mob-center">
-								<img src="https://cdn3.iconfinder.com/data/icons/transparent-on-dark-grey/500/icon-04-512.png" srcset="https://cdn3.iconfinder.com/data/icons/transparent-on-dark-grey/500/icon-04-1024.png 2x" style="height:25px;width:25px;">
+								<img srcset="https://cdn3.iconfinder.com/data/icons/transparent-on-dark-grey/500/icon-04-1024.png 2x" style="height:25px;width:25px;">
 							</div>
 							<a class="color-brand-dark phone-text align-self-center">
 								Instagram
