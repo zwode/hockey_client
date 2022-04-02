@@ -47,30 +47,50 @@
 							</a>
 						</div>
 					</a>
+					<a href="https://www.instagram.com/truehockey.kz/">
+						<div class="contact-email d-flex">
+							<div class="mr-1 mob-center">
+								<img src="http://assets.stickpng.com/images/5ecec78673e4440004f09e77.png" style="height:25px;width:25px;">
+							</div>
+							<a class="color-brand-dark phone-text align-self-center">
+								Instagram
+							</a>
+						</div>
+					</a>
 				</div>
 				<div class="text-white justify-content-between link-white size-text-footer">
 					<div class=" p-3 size-text-footer">
 						<div class="d-flex justify-content-between">
-						<a href="tel:+77777499679" class="mb-2">
-							<div class="contact-phone mb-3 d-flex">
-								<div class="mr-1">
-									Телефон:
+							<a href="tel:+77777499679" class="mb-2">
+								<div class="contact-phone mb-3 d-flex">
+									<div class="mr-1">
+										Телефон:
+									</div>
+									<a href="tel:+77777499679" class="color-brand-dark phone-text align-self-center">
+										+7 (777) 749 96 79
+									</a>
 								</div>
-								<a href="tel:+77777499679" class="color-brand-dark phone-text align-self-center">
-									+7 (777) 749 96 79
-								</a>
-							</div>
-						</a>
-						<a href="mailto:truehockey.kz@mail.ru" class=" mb-3 w-75">
-							<div class="contact-email d-flex mb-3">
-								<div class="mr-1">
-									Почта:
+							</a>
+							<a href="https://www.instagram.com/truehockey.kz/" class="mb-3">
+								<div class="contact-email d-flex mb-3">
+									<div class="mr-1">
+										Instagram:
+									</div>
+									<a class="color-brand-dark phone-text align-self-center">
+										truehockey.kz
+									</a>
 								</div>
-								<a href="mailto:truehockey.kz@mail.ru" class="color-brand-dark phone-text align-self-center">
-									truehockey.kz@mail.ru
-								</a>
-							</div>
-						</a>
+							</a>
+							<a href="mailto:truehockey.kz@mail.ru" class=" mb-3 w-50">
+								<div class="contact-email d-flex mb-3">
+									<div class="mr-1">
+										Почта:
+									</div>
+									<a href="mailto:truehockey.kz@mail.ru" class="color-brand-dark phone-text align-self-center">
+										truehockey.kz@mail.ru
+									</a>
+								</div>
+							</a>
 						</div>
 						<div class="d-flex justify-content-between">
 							<a href="https://api.whatsapp.com/send?phone=77019563020" class="mb-3">

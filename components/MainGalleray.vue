@@ -31,6 +31,11 @@ import boy3 from "../assets/img/kids_run.jpg";
 import boy4 from "../assets/img/boy-4.jpg";
 import boy5 from "../assets/img/boy-5.jpg";
 import boy6 from "../assets/img/boy-6.jpg";
+import new1 from "../assets/img/new-1.jpg";
+import new2 from "../assets/img/new-2.jpg";
+import new3 from "../assets/img/new-3.jpg";
+import new4 from "../assets/img/new-4.jpg";
+import new5 from "../assets/img/new-5.jpg";
 
 export default {
 	components: {
@@ -49,7 +54,12 @@ export default {
 				mvp,
 				kids1,
 				kids4,
-				boy2
+				boy2,
+				new1,
+				new2,
+				new3,
+				new4,
+				new5
 			],
 			index: null
 		};

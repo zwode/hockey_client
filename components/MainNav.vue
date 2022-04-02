@@ -17,18 +17,13 @@
 					<a class="nav-item" href="/#commands">
 						Команда
 					</a>
-					<a class="nav-item" href="/#ths" onclick="document.querySelectorAll('.card-header .nav-item a')[4].click()">
+					<a class="nav-item" href="/#ths" onclick="document.querySelectorAll('.card-header .nav-item a')[3].click()">
 						TH kids
 					</a>
 					<a class="nav-item" href="/#ths" onclick="document.querySelectorAll('.card-header .nav-item a')[4].click()">
 						TH trainings
 					</a>
 					<b-dropdown id="dropdown-left" text="TH ice service">
-						<b-dropdown-item>
-							<a class="nav-item" :href="'/#ths'" onclick="document.querySelectorAll('.card-header .nav-item a')[5].click();">
-								True hockey systems
-							</a>
-						</b-dropdown-item>
 						<b-dropdown-item href="/cold_systems">Системы холода обеспечения ледовой площадки</b-dropdown-item>
 						<b-dropdown-item href="/cooling_system">Пластиковая (ПНД) система охлаждения</b-dropdown-item>
 						<b-dropdown-item href="/hockey_board">Хоккейный борт</b-dropdown-item>
@@ -69,7 +64,7 @@
 						<b-nav-item class="nav-item" href="/#commands">
 							Команда
 						</b-nav-item>
-						<b-nav-item class="nav-item" href="/#ths" onclick="document.querySelectorAll('.card-header .nav-item a')[4].click()">
+						<b-nav-item class="nav-item" href="/#ths" onclick="document.querySelectorAll('.card-header .nav-item a')[3].click()">
 							TH kids
 						</b-nav-item>
 						<b-nav-item href="/#ths" onclick="document.querySelectorAll('.card-header .nav-item a')[4].click()">
@@ -140,7 +135,7 @@ h6 {
 }
 
 .logo img {
-	width: 100%;
+	width: 60px;
 	height: 75px;
 }
 

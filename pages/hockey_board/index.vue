@@ -3,7 +3,7 @@
 		<MainNav/>
 		<div class="container">
 			<div class="d-flex mt-5">
-				<h2 class="bg-brand text-white p-1">
+				<h2 class="color-brand-dark">
 					Хоккейный борт
 				</h2>
 

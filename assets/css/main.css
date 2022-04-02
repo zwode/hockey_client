@@ -56,6 +56,33 @@ body {
 	font-family: 'Roboto Slab', serif;
 }
 
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+	border: 1px solid transparent!important;
+}
+
+.nav-tabs .nav-link:focus-visible {
+	border: 1px solid transparent!important;
+}
+
+.nav-tabs .nav-item:focus-visible {
+	border: 1px solid transparent!important;
+}
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+	color: #ffffff!important;
+}
+
+.btn-secondary:focus, .btn-secondary.focus, .btn-secondary:hover {
+	color: #ffffff!important;
+}
+
+.btn-secondary:focus .btn-secondary:hover {
+	color: #000000!important;
+}
+
+.btn-secondary:focus {
+	color: #000000!important;
+}
+
 .height-nav {
 	height: 90px;
 }
@@ -122,6 +149,17 @@ a:hover {
 }
 
 @media (max-width: 425px) {
+	.navbar-nav .nav-link {
+		text-align: center!important;
+	}
+	.navbar-collapse .dropdown-item {
+
+		padding: 0.25rem 0.25rem;
+		text-align: center!important;
+	}
+	.navbar-collapse .nav-item {
+		margin-right: 0!important;
+	}
 	.bg-image-main {
 		min-height: 40vh!important;
 	}
