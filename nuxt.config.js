@@ -11,11 +11,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'True hockey systems – это самая крупная частная многопрофильная организация в сфере хоккея в РК, занимающаяся от хоккейных тренировок до строительства ледовых арен', name: 'True hockey systems – это самая крупная частная многопрофильная организация в сфере хоккея в РК, занимающаяся от хоккейных тренировок до строительства ледовых арен', content: '' },
-      { name: 'format-detection', content: 'True hockey systems – это самая крупная частная многопрофильная организация в сфере хоккея в РК, занимающаяся от хоккейных тренировок до строительства ледовых арен' }
+      { hid: 'description', name: 'description', content: 'True hockey systems – это самая крупная частная многопрофильная организация в сфере хоккея в РК, занимающаяся от хоккейных тренировок до строительства ледовых арен' },
+      { property: 'og:image', content: './assets/img/new_logo_main.jpg' }
     ],
     link: [
-      { type: 'image', href: '/new_logo_main.jpg' }
+      { type: 'image', href: './assets/img/new_logo_main.jpg' }
     ]
   },
 
