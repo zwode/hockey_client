@@ -334,7 +334,7 @@ export default {
 	padding: 1rem!important;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 550px) {
 	.nav-link {
 		padding: 0.5rem!important;
 	}
