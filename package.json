@@ -1,5 +1,6 @@
 {
-  "name": "client_website",
+  "name": "TH-systems",
+  "author": "zwode: github/zwode",
   "version": "1.0.0",
   "private": true,
   "scripts": {

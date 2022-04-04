@@ -17,7 +17,12 @@ export default {
 	  link: [{ rel: 'icon', type: 'image/jpg', href: 'http://th-systems.kz/_nuxt/img/logo_main.ff98c61.jpg' }],
 
   },
-
+  vue: {
+    config: {
+      productionTip: false,
+      devtools: true
+    }
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
 	  './assets/css/main'
@@ -49,7 +54,6 @@ export default {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/'
   },
-
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
