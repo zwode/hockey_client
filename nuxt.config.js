@@ -15,7 +15,8 @@ export default {
       { property: 'og:image', content: './assets/img/new_logo_main.jpg' }
     ],
     link: [
-      { type: 'image', href: './assets/img/new_logo_main.jpg' }
+		{ sizes: "16x16", type: 'image/jpg', href: './assets/img/new_logo_main.jpg' },
+		{ type: 'image/jpg', rel: 'icon', href: 'assets/img/new_logo_main.jpg' }
     ]
   },
 
