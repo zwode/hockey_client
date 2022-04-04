@@ -16,7 +16,7 @@ export default {
     ],
     link: [
 		{ sizes: "16x16", type: 'image/jpg', href: './assets/img/new_logo_main.jpg' },
-		{ type: 'image/jpg', rel: 'icon', href: 'assets/img/new_logo_main.jpg' }
+		{ type: 'image/jpg', rel: 'icon', href: './assets/img/new_logo_main.jpg' }
     ]
   },
 
