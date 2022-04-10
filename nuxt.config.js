@@ -11,7 +11,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'True hockey systems – это самая крупная частная многопрофильная организация в сфере хоккея в РК, занимающаяся от хоккейных тренировок до строительства ледовых арен' },
+      { hid: 'description', name: 'TH-Systems', content: 'True hockey systems – это самая крупная частная многопрофильная организация в сфере хоккея в РК, занимающаяся от хоккейных тренировок до строительства ледовых арен' },
+		{ name: 'googlebot', content: 'TH-Systems, это самая крупная частная многопрофильная организация в сфере хоккея в РК, занимающаяся от хоккейных тренировок до строительства ледовых арен'},
       { property: 'og:image', content: './assets/img/new_logo_main.jpg' },
 		{ name: 'google-site-verification', content: 'dZuCAn1cSMS928lyfZ1OWrj8ea-YWwr_ozVuH0a1yZE'}
     ],
