@@ -17,7 +17,7 @@
     "core-js": "^3.23.5",
     "lingallery": "^1.3.7",
     "nuxt": "^2.2.0",
-    "vue": "^2.7.7",
+    "vue": "^3.2.40",
     "vue-gallery-slideshow": "^1.5.2",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.7.7"
